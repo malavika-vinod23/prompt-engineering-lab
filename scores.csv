@@ -1,5 +1,5 @@
-model,prompt,task_completion,output_format,factual_accuracy,instruction_following,conciseness,latency_ms,input_tokens,output_tokens,total_tokens,output_preview,full_output
-gpt-4o,prompt_01_zeroshot,,,,,,8323.06,72,371,443,"**Product Description:**
+model,prompt,,latency_ms,input_tokens,output_tokens,total_tokens,output_preview,full_output,task_completion,output_format,factual_accuracy,instruction_following,conciseness
+gpt-4o,prompt_01_zeroshot,,8323.06,72,371,443,"**Product Description:**
 
 **SmartFit Pro X1 Smartwatch: Elevate Your Everyday**
 
@@ -27,8 +27,8 @@ With an IP68 waterproof rating, the SmartFit Pro X1 is designed to withstand the
 **Fitness at Your Fingertips:**
 Track your fitness journey with precision. The Pro X1 offers comprehensive activity tracking, helping you monitor your progress and achieve your fitness goals with ease.
 
-Elevate your everyday with the SmartFit Pro X1 Smartwatch. Where innovation meets elegance, this is more than just a watch—it's your personal assistant, health coach, and communication hub, all in one sleek device. Embrace the future of wearable technology today."
-gpt-4o,prompt_02_format,,,,,,4059.02,105,218,323,"1. **Product Title**  
+Elevate your everyday with the SmartFit Pro X1 Smartwatch. Where innovation meets elegance, this is more than just a watch—it's your personal assistant, health coach, and communication hub, all in one sleek device. Embrace the future of wearable technology today.",5,4,5,5,3
+gpt-4o,prompt_02_format,,4059.02,105,218,323,"1. **Product Title**  
    SmartFit Pro X1 Smartwatch
 
 2. **Short Marketing Description**  
@@ -48,8 +48,8 @@ gpt-4o,prompt_02_format,,,,,,4059.02,105,218,323,"1. **Product Title**
    - Versatile fitness activity tracking to help you achieve your wellness goals
 
 4. **Promotional Tagline**  
-   SmartFit Pro X1: Redefine Your Everyday with Smart Precision and Style!"
-gpt-4o,prompt_03_oneshot,,,,,,3078.21,209,146,355,"Product Title:
+   SmartFit Pro X1: Redefine Your Everyday with Smart Precision and Style!",5,5,5,5,4
+gpt-4o,prompt_03_oneshot,,3078.21,209,146,355,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -69,8 +69,8 @@ Key Features:
 - Fitness activity tracking to keep you motivated
 
 Promotional Tagline:
-Stay connected. Stay healthy. Stay ahead."
-gpt-4o,prompt_04_fewshot,,,,,,9172.14,375,130,505,"Product Title:
+Stay connected. Stay healthy. Stay ahead.",5,5,5,5,5
+gpt-4o,prompt_04_fewshot,,9172.14,375,130,505,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -90,8 +90,8 @@ Key Features:
 - Comprehensive fitness activity tracking
 
 Promotional Tagline:
-Stay connected. Stay fit. Stay ahead."
-gpt-4o,prompt_05_cot,,,,,,2539.37,148,169,317,"Product Title:  
+Stay connected. Stay fit. Stay ahead.",5,5,5,5,5
+gpt-4o,prompt_05_cot,,2539.37,148,169,317,"Product Title:  
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:  
@@ -111,8 +111,8 @@ Key Features:
 - Versatile fitness activity tracking to enhance your workouts  
 
 Promotional Tagline:  
-Stay Fit, Stay Connected, Stay Ahead with SmartFit Pro X1!"
-gpt-4o,prompt_06_system_persona,,,,,,2370.05,159,171,330,"Product Title:  
+Stay Fit, Stay Connected, Stay Ahead with SmartFit Pro X1!",5,5,5,5,4
+gpt-4o,prompt_06_system_persona,,2370.05,159,171,330,"Product Title:  
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:  
@@ -132,8 +132,8 @@ Key Features:
 - Versatile fitness activity tracking to support your active lifestyle  
 
 Promotional Tagline:  
-SmartFit Pro X1: Your Ultimate Companion for a Smarter, Healthier Life."
-gpt-4o,prompt_07_role_prompt,,,,,,5050.14,158,292,450,"**Product Title:**  
+SmartFit Pro X1: Your Ultimate Companion for a Smarter, Healthier Life.",5,5,5,5,4
+gpt-4o,prompt_07_role_prompt,,5050.14,158,292,450,"**Product Title:**  
 SmartFit Pro X1 Smartwatch
 
 **Short Marketing Description:**  
@@ -152,8 +152,8 @@ Elevate your lifestyle with the SmartFit Pro X1 Smartwatch, where cutting-edge t
 - **Fitness Focused:** Track your fitness activities with precision, motivating you to reach new heights and achieve your personal best.
 
 **Promotional Tagline:**  
-SmartFit Pro X1: Redefine Your Everyday with Intelligent Elegance."
-gpt-4o,prompt_08_role_fewshot,,,,,,8253.98,382,112,494,"Product Title:
+SmartFit Pro X1: Redefine Your Everyday with Intelligent Elegance.",5,5,5,5,3
+gpt-4o,prompt_08_role_fewshot,,8253.98,382,112,494,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -173,8 +173,8 @@ Key Features:
 - Comprehensive fitness activity tracking
 
 Promotional Tagline:
-Stay connected. Stay healthy. Stay ahead."
-gpt-4o,prompt_09_system_cot,,,,,,2909.05,212,231,443,"**Product Title:** SmartFit Pro X1 Smartwatch
+Stay connected. Stay healthy. Stay ahead.",5,5,5,5,5
+gpt-4o,prompt_09_system_cot,,2909.05,212,231,443,"**Product Title:** SmartFit Pro X1 Smartwatch
 
 **Short Marketing Description:**  
 Elevate your lifestyle with the SmartFit Pro X1 Smartwatch, designed","**Product Title:** SmartFit Pro X1 Smartwatch
@@ -191,8 +191,8 @@ Elevate your lifestyle with the SmartFit Pro X1 Smartwatch, designed for those w
 - **Fitness Activity Tracking:** Achieve your fitness goals with detailed activity tracking, motivating you to stay active and healthy.
 
 **Promotional Tagline:**  
-SmartFit Pro X1: Your Ultimate Companion for a Connected and Healthier Lifestyle."
-gpt-4o,prompt_10_optimised,,,,,,5172.34,246,234,480,"**Product Title:**  
+SmartFit Pro X1: Your Ultimate Companion for a Connected and Healthier Lifestyle.",5,5,5,5,3
+gpt-4o,prompt_10_optimised,,5172.34,246,234,480,"**Product Title:**  
 SmartFit Pro X1 Smartwatch
 
 **Short Marketing Description:**  
@@ -211,8 +211,8 @@ Elevate your lifestyle with the SmartFit Pro X1 Smartwatch, designed for the mod
 - **Fitness Focused:** Track your fitness activities effortlessly, helping you stay motivated and achieve your goals.
 
 **Promotional Tagline:**  
-SmartFit Pro X1: Where Innovation Meets Elegance."
-gpt-5.4,prompt_01_zeroshot,,,,,,6853.94,71,347,418,"**SmartFit Pro X1 Smartwatch**
+SmartFit Pro X1: Where Innovation Meets Elegance.",5,5,4,5,4
+gpt-5.4,prompt_01_zeroshot,,6853.94,71,347,418,"**SmartFit Pro X1 Smartwatch**
 
 Stay connected, active, and in control with the **SmartFit Pro X1 Smartwatch**—a sleek everyday wearable designed to s","**SmartFit Pro X1 Smartwatch**
 
@@ -243,8 +243,8 @@ Stay connected, active, and in control with the **SmartFit Pro X1 Smartwatch**�
 ### Why You’ll Love It
 The **SmartFit Pro X1** blends modern style with practical functionality, making it the perfect companion for work, workouts, and everything in between. Whether you're answering calls, tracking your fitness progress, or monitoring your wellness, this smartwatch delivers the features you need in one streamlined device.
 
-**Upgrade your routine with the SmartFit Pro X1 Smartwatch—where smart technology meets everyday performance.**"
-gpt-5.4,prompt_02_format,,,,,,4706.81,104,248,352,"1. **Product Title**  
+**Upgrade your routine with the SmartFit Pro X1 Smartwatch—where smart technology meets everyday performance.**",3,2,5,3,3
+gpt-5.4,prompt_02_format,,4706.81,104,248,352,"1. **Product Title**  
 SmartFit Pro X1 Smartwatch
 
 2. **Short Marketing Description**  
@@ -264,8 +264,8 @@ Stay connected, active, and in control with the SmartFit Pro X1 Smartwatch. Desi
 - **Fitness Activity Tracking** to monitor workouts and support your fitness goals  
 
 4. **Promotional Tagline**  
-**SmartFit Pro X1 — Smarter Health, Seamless Connection, Everyday Performance.**"
-gpt-5.4,prompt_03_oneshot,,,,,,2934.89,208,143,351,"Product Title:
+**SmartFit Pro X1 — Smarter Health, Seamless Connection, Everyday Performance.**",5,5,5,5,4
+gpt-5.4,prompt_03_oneshot,,2934.89,208,143,351,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -285,8 +285,8 @@ Key Features:
 - Comprehensive fitness activity tracking
 
 Promotional Tagline:
-Smart health. Smart style. Smart living."
-gpt-5.4,prompt_04_fewshot,,,,,,2501.07,374,117,491,"Product Title:
+Smart health. Smart style. Smart living.",5,5,5,5,5
+gpt-5.4,prompt_04_fewshot,,2501.07,374,117,491,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -306,8 +306,8 @@ Key Features:
 - Fitness activity tracking
 
 Promotional Tagline:
-Stay fit. Stay connected."
-gpt-5.4,prompt_05_cot,,,,,,4813.32,147,219,366,"Product Title:
+Stay fit. Stay connected.",5,5,5,5,5
+gpt-5.4,prompt_05_cot,,4813.32,147,219,366,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -327,8 +327,8 @@ Key Features:
 - Fitness activity tracking to support workouts and daily movement goals
 
 Promotional Tagline:
-Stay Connected. Stay Active. Stay Ahead."
-gpt-5.4,prompt_06_system_persona,,,,,,3223.46,158,163,321,"Product Title:
+Stay Connected. Stay Active. Stay Ahead.",5,5,5,5,4
+gpt-5.4,prompt_06_system_persona,,3223.46,158,163,321,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -348,8 +348,8 @@ Key Features:
 - Fitness activity tracking to support your active lifestyle
 
 Promotional Tagline:
-Smart style. Smarter tracking. Everyday performance."
-gpt-5.4,prompt_07_role_prompt,,,,,,5453.48,157,243,400,"Product Title:
+Smart style. Smarter tracking. Everyday performance.",5,5,5,5,4
+gpt-5.4,prompt_07_role_prompt,,5453.48,157,243,400,"Product Title:
 SmartFit Pro X1 Smartwatch with 1.9"" AMOLED Display, Bluetooth Calling, Heart-Rate & Sleep Tracking
 
 Short Marketing Description:
@@ -369,8 +369,8 @@ Key Features:
 - Fitness activity tracking helps you monitor movement and stay focused on your goals
 
 Promotional Tagline:
-SmartFit Pro X1 — Smarter wellness, seamless connection, every day."
-gpt-5.4,prompt_08_role_fewshot,,,,,,3069.77,381,152,533,"Product Title:
+SmartFit Pro X1 — Smarter wellness, seamless connection, every day.",5,5,5,5,3
+gpt-5.4,prompt_08_role_fewshot,,3069.77,381,152,533,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -390,8 +390,8 @@ Key Features:
 - IP68 waterproof rating for added durability
 
 Promotional Tagline:
-Smart tracking. Seamless living."
-gpt-5.4,prompt_09_system_cot,,,,,,4189.17,211,220,431,"Product Title:
+Smart tracking. Seamless living.",5,5,5,5,5
+gpt-5.4,prompt_09_system_cot,,4189.17,211,220,431,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -411,8 +411,8 @@ Key Features:
 - Fitness activity tracking to help monitor movement and exercise
 
 Promotional Tagline:
-Stay connected, stay active, stay ahead with SmartFit Pro X1."
-gpt-5.4,prompt_10_optimised,,,,,,4403.52,245,207,452,"Product Title:
+Stay connected, stay active, stay ahead with SmartFit Pro X1.",5,5,5,5,4
+gpt-5.4,prompt_10_optimised,,4403.52,245,207,452,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -432,8 +432,8 @@ Key Features:
 - IP68 waterproof design for confident everyday wear
 
 Promotional Tagline:
-Stay connected, track smarter, and move through your day in style."
-gpt-5.4-mini,prompt_01_zeroshot,,,,,,2639.67,71,293,364,"**SmartFit Pro X1 Smartwatch**
+Stay connected, track smarter, and move through your day in style.",5,5,5,5,4
+gpt-5.4-mini,prompt_01_zeroshot,,2639.67,71,293,364,"**SmartFit Pro X1 Smartwatch**
 
 Stay connected, track your health, and elevate your everyday routine with the **SmartFit Pro X1 Smartwatch**. Designed","**SmartFit Pro X1 Smartwatch**
 
@@ -454,8 +454,8 @@ Whether you're working out, working hard, or winding down, the **SmartFit Pro X1
 - IP68 waterproof
 - Fitness activity tracking
 
-If you'd like, I can also create a **shorter marketplace version**, **SEO-optimized version**, or **luxury brand-style description**."
-gpt-5.4-mini,prompt_02_format,,,,,,3147.55,104,208,312,"1. **Product Title**  
+If you'd like, I can also create a **shorter marketplace version**, **SEO-optimized version**, or **luxury brand-style description**.",3,2,5,2,3
+gpt-5.4-mini,prompt_02_format,,3147.55,104,208,312,"1. **Product Title**  
 SmartFit Pro X1 Smartwatch
 
 2. **Short Marketing Description**  
@@ -475,8 +475,8 @@ Stay connected, track your health, and elevate your everyday routine with the Sm
 - Fitness activity tracking to monitor workouts and movement  
 
 4. **Promotional Tagline**  
-Smart style. Powerful tracking. Built to keep up."
-gpt-5.4-mini,prompt_03_oneshot,,,,,,1921.97,208,151,359,"Product Title:
+Smart style. Powerful tracking. Built to keep up.",5,5,5,5,4
+gpt-5.4-mini,prompt_03_oneshot,,1921.97,208,151,359,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -496,8 +496,8 @@ Key Features:
 - Fitness activity tracking to monitor workouts and movement
 
 Promotional Tagline:
-Smart living. Strong performance. Every day."
-gpt-5.4-mini,prompt_04_fewshot,,,,,,2020.39,374,143,517,"Product Title:
+Smart living. Strong performance. Every day.",5,5,5,5,5
+gpt-5.4-mini,prompt_04_fewshot,,2020.39,374,143,517,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -517,8 +517,8 @@ Key Features:
 - Fitness activity tracking to monitor daily movement
 
 Promotional Tagline:
-Smart living. Strong performance. Every day."
-gpt-5.4-mini,prompt_05_cot,,,,,,2139.21,147,210,357,"Product Title:
+Smart living. Strong performance. Every day.",5,5,5,5,5
+gpt-5.4-mini,prompt_05_cot,,2139.21,147,210,357,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -538,8 +538,8 @@ Key Features:
 - Fitness activity tracking to monitor daily movement and workouts
 
 Promotional Tagline:
-Stay connected. Train smarter. Live better."
-gpt-5.4-mini,prompt_06_system_persona,,,,,,2344.0,158,166,324,"**Product Title:**  
+Stay connected. Train smarter. Live better.",5,5,5,5,4
+gpt-5.4-mini,prompt_06_system_persona,,2344,158,166,324,"**Product Title:**  
 SmartFit Pro X1 Smartwatch
 
 **Short Marketing Description:**  
@@ -559,8 +559,8 @@ Stay connected and in control with the SmartFit Pro X1 Smartwatch. Featuring a v
 - Fitness activity tracking to support your goals  
 
 **Promotional Tagline:**  
-Smart style. Powerful tracking. Built for every day."
-gpt-5.4-mini,prompt_07_role_prompt,,,,,,1837.43,157,198,355,"**Product Title:**  
+Smart style. Powerful tracking. Built for every day.",5,5,5,5,5
+gpt-5.4-mini,prompt_07_role_prompt,,1837.43,157,198,355,"**Product Title:**  
 SmartFit Pro X1 Smartwatch
 
 **Short Marketing Description:**  
@@ -580,8 +580,8 @@ Stay connected, track your wellness, and move through your day with confidence u
 - Fitness activity tracking to support your daily movement goals  
 
 **Promotional Tagline:**  
-Smart living, fitness tracking, and everyday convenience — all on your wrist."
-gpt-5.4-mini,prompt_08_role_fewshot,,,,,,1899.31,381,138,519,"Product Title:
+Smart living, fitness tracking, and everyday convenience — all on your wrist.",5,5,5,5,4
+gpt-5.4-mini,prompt_08_role_fewshot,,1899.31,381,138,519,"Product Title:
 SmartFit Pro X1 Smartwatch
 
 Short Marketing Description:
@@ -601,8 +601,8 @@ Key Features:
 - Fitness activity tracking to support active lifestyles
 
 Promotional Tagline:
-Smart living, made effortless."
-gpt-5.4-mini,prompt_09_system_cot,,,,,,1836.76,211,196,407,"**Product Title:**  
+Smart living, made effortless.",5,5,5,5,5
+gpt-5.4-mini,prompt_09_system_cot,,1836.76,211,196,407,"**Product Title:**  
 SmartFit Pro X1 Smartwatch
 
 **Short Marketing Description:**  
@@ -622,8 +622,8 @@ Stay connected, track your wellness, and elevate your everyday routine with the 
 - Fitness activity tracking to help monitor movement and progress  
 
 **Promotional Tagline:**  
-Smart style. Smarter living."
-gpt-5.4-mini,prompt_10_optimised,,,,,,2507.3,245,168,413,"**Product Title:**  
+Smart style. Smarter living.",5,5,5,5,4
+gpt-5.4-mini,prompt_10_optimised,,2507.3,245,168,413,"**Product Title:**  
 SmartFit Pro X1 Smartwatch
 
 **Short Marketing Description:**  
@@ -642,4 +642,4 @@ Designed for active, connected lifestyles, the SmartFit Pro X1 combines a vibran
 - IP68 waterproof protection for everyday durability  
 
 **Promotional Tagline:**  
-Smart style. Smarter performance."
+Smart style. Smarter performance.",5,5,5,5,5
