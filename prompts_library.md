@@ -1,177 +1,166 @@
-#  Prompt Engineering Lab — Prompts Library & Analysis
+# Prompt Engineering Lab — Prompts Library & Analysis
 
-**Task:** E-commerce product description generation  
+## Task
+E-commerce product description generation
+
 **Product:** SmartFit Pro X1 Smartwatch  
 **Models tested:** GPT-4o, gpt-5.4, gpt-5.4-mini  
 **Total evaluations:** 150 data points (10 prompts × 3 models × 5 dimensions)
 
 ---
 
-#  Prompt Library Summary
+## A. Prompt Library Results
 
-| # | File | Technique | GPT-4o Avg | gpt-5.4 Avg | gpt-5.4-mini Avg |
-|--|------|------------|------------|-------------|------------------|
-| 01 | prompt_01_zeroshot.txt | Zero-shot | 2.6 | 2.6 | 2.6 |
-| 02 | prompt_02_zeroshot_format.txt | Zero-shot + Format | 4.0 | 4.0 | 3.8 |
-| 03 | prompt_03_oneshot.txt | One-shot | 4.0 | 4.0 | 4.0 |
-| 04 | prompt_04_fewshot.txt | Few-shot | 4.0 | 4.0 | 4.0 |
-| 05 | prompt_05_cot.txt | Chain-of-Thought | 3.0 | 3.0 | 2.8 |
-| 06 | prompt_06_system_persona.txt | System Persona | 4.0 | 4.0 | 4.0 |
-| 07 | prompt_07_role.txt | Role Prompting | 3.6 | 3.6 | 3.4 |
-| 08 | prompt_08_role_fewshot.txt | Role + Few-shot | **5.0** | **5.0** | **4.8** |
-| 09 | prompt_09_system_cot.txt | System + CoT | 3.8 | 3.8 | 3.6 |
-| 10 | prompt_10_optimised.txt | Optimised Best-shot | **5.0** | **5.0** | **4.8** |
-
----
-
-# A.  Model Comparison
-
-All three models performed **almost identically** when given well-structured prompts.
-
-The score gap between GPT-4o and gpt-5.4-mini was ≤ 0.2 across most prompts.
-
-### Key Observation:
-The only noticeable difference appeared in:
-- Prompt 06 (System Persona)
-- Prompt 10 (Optimised)
-
-Here, gpt-5.4-mini showed slightly lower conciseness, occasionally exceeding word limits.
+| #  | File                          | Technique            | GPT-4o | gpt-5.4 | gpt-5.4-mini |
+|----|------------------------------|---------------------|--------|----------|--------------|
+| 01 | prompt_01_zeroshot.txt       | Zero-shot           | 4.4    | 3.2      | 3.0          |
+| 02 | prompt_02_zeroshot_format.txt| Zero-shot + Format  | 4.8    | 4.8      | 4.8          |
+| 03 | prompt_03_oneshot.txt        | One-shot            | 5.0    | 5.0      | 5.0          |
+| 04 | prompt_04_fewshot.txt        | Few-shot            | 5.0    | 5.0      | 5.0          |
+| 05 | prompt_05_cot.txt            | Chain-of-Thought    | 4.8    | 4.8      | 4.8          |
+| 06 | prompt_06_system_persona.txt | System Persona      | 4.8    | 4.8      | 5.0          |
+| 07 | prompt_07_role.txt           | Role Prompting      | 4.6    | 4.6      | 4.8          |
+| 08 | prompt_08_role_fewshot.txt   | Role + Few-shot     | 5.0    | 5.0      | 5.0          |
+| 09 | prompt_09_system_cot.txt     | System + CoT        | 4.6    | 4.8      | 4.8          |
+| 10 | prompt_10_optimised.txt      | Optimised Best-shot | 4.6    | 4.8      | 5.0          |
 
 ---
 
-##  Key Insight
+## B. Model Comparison
 
-> Model capability is not the bottleneck — prompt design is.
+GPT-4o performs strongest in zero-shot (4.4 vs 3.2 for gpt-5.4 and 3.0 for gpt-5.4-mini), but this advantage disappears with structured prompting.
+
+Across prompts 02–10, model performance converges tightly:
+
+- GPT-4o and gpt-5.4 are nearly identical (≤ 0.2 difference)
+- gpt-5.4-mini matches or exceeds both in multiple cases (06, 10)
+
+Key insight: prompt design has a stronger impact than model choice for this task.
 
 ---
 
-##  Model Performance Summary
+### Model Summary
 
 | Model | Avg Score | Avg Latency | Relative Cost |
-|------|----------|--------------|---------------|
-| GPT-4o | 3.90 | 1,815ms | 10× |
-| gpt-5.4 | 3.90 | 1,308ms | 3× |
-| gpt-5.4-mini | 3.78 | 769ms | 1× (baseline) |
+|------|----------|-------------|---------------|
+| GPT-4o | 4.76 | 5093 ms | 10× |
+| gpt-5.4 | 4.68 | 4215 ms | 3× |
+| gpt-5.4-mini | 4.72 | 2229 ms | 1× |
 
 ---
 
-# B.  Technique Effectiveness (Ranked)
+## C. Technique Effectiveness
 
-| Rank | Technique | Avg Score | Insight |
-|------|-----------|----------|--------|
-|  1 | Role + Few-shot (P08) | 4.93 | Best balance of structure + tone |
-|  1 | Optimised Best-shot (P10) | 4.93 | Equal performance, higher complexity |
-| 3 | Zero-shot + Format (P02) | 3.93 | Format constraints improve clarity |
-| 3 | One-shot (P03) | 3.93 | Single example is highly effective |
-| 3 | Few-shot (P04) | 3.93 | Stable but marginal improvement |
-| 3 | System Persona (P06) | 3.93 | Works well without examples |
-| 7 | System + CoT (P09) | 3.73 | Adds reasoning but reduces conciseness |
-| 8 | Role Prompting (P07) | 3.53 | Improves tone but lacks structure |
-| 9 | Chain-of-Thought (P05) | 2.93 | Too verbose for creative writing |
-| 10 | Zero-shot (P01) | 2.60 | No structure → weakest performance |
+Ranked by average score across models:
+
+### 1. One-shot (Prompt 03) — 5.00
+Perfect scores across all models. A single strong example anchors format and tone effectively.
+
+### 2. Few-shot (Prompt 04) — 5.00
+Multiple examples reinforce structure and consistency.
+
+### 3. Role + Few-shot (Prompt 08) — 5.00
+Combines persona guidance with examples for maximum stability.
+
+### 4. System Persona (Prompt 06) — 4.87
+Strong control over tone and structure with minor variance.
+
+### 5. Chain-of-Thought (Prompt 05) — 4.80
+Works well due to structured output constraints preventing verbosity.
+
+### 6. Zero-shot + Format (Prompt 02) — 4.80
+Formatting alone significantly improves output quality.
+
+### 7. Optimised Best-shot (Prompt 10) — 4.80
+Strong overall but slightly lower factual accuracy in GPT-4o.
+
+### 8. System + CoT (Prompt 09) — 4.73
+Slight verbosity reduces conciseness score.
+
+### 9. Role Prompting (Prompt 07) — 4.67
+Good structure but weaker conciseness.
+
+### 10. Zero-shot (Prompt 01) — 3.53
+Worst performing setup due to lack of structure.
 
 ---
 
-# C.  Cost–Quality Tradeoff
+## D. Cost–Quality Tradeoff
 
-##  Is GPT-4o worth the premium?
+### Is GPT-4o worth the premium?
 
-**Answer: No — not for this task.**
+No.
 
-### Key Findings:
-- GPT-4o and gpt-5.4 have identical average scores (3.90)
-- gpt-5.4-mini is only ~0.12 points lower
-- But costs ~10× less than GPT-4o
+- gpt-5.4-mini average: 4.72  
+- GPT-4o average: 4.76  
+- Difference: negligible (0.04)
+
+However:
+- gpt-5.4-mini is significantly cheaper
+- gpt-5.4-mini is faster (~2.3× vs GPT-4o)
+
+Conclusion: model differences are minimal under good prompting.
 
 ---
 
-##  Cost Comparison (per 1,000 outputs)
+### Estimated Cost per 1,000 Outputs
 
-| Model | Estimated Cost |
-|------|---------------|
+| Model | Cost |
+|------|------|
 | GPT-4o | ~$8.20 |
 | gpt-5.4 | ~$4.10 |
 | gpt-5.4-mini | ~$0.80 |
 
 ---
 
-##  Conclusion
+## E. Failure Analysis
 
-For production workloads:
-> gpt-5.4-mini + good prompt engineering = best cost-performance balance
+### 1. gpt-5.4-mini × Prompt 01 (Zero-shot)
+Score: 3.0
 
----
+Failure due to missing structure. Output included irrelevant expansions and weak instruction adherence.
 
-# D.  Failure Analysis (Top 3 Worst Cases)
+### 2. gpt-5.4 × Prompt 01 (Zero-shot)
+Score: 3.2
 
----
+Generated structured-looking markdown without following required format.
 
-## 1. gpt-5.4-mini × Prompt 01 (Zero-shot) — 2.6
+### 3. GPT-4o × Prompt 10 (Optimised)
+Score: 4.6
 
-**Issue:** No structure or constraints  
-**Result:** Generic, low-quality marketing copy
-
- Insight: Small models depend heavily on prompt structure.
-
----
-
-## 2. GPT-4o × Prompt 05 (Chain-of-Thought) — 3.0
-
-**Issue:** CoT not suitable for creative writing  
-**Result:** Verbose, analytical tone instead of marketing style
-
- Insight: CoT is better for reasoning tasks, not content generation.
+Minor factual inconsistency due to slight over-generation.
 
 ---
 
-## 3. gpt-5.4-mini × Prompt 07 (Role Prompting) — 3.4
+## F. Production Recommendation
 
-**Issue:** Role without structure/examples  
-**Result:** Long, inconsistent product descriptions
+### Recommended Setup
 
- Insight: Role prompts need format anchoring.
+**Model:** gpt-5.4-mini  
+**Prompt:** Prompt 08 (Role + Few-shot)
 
----
-
-# E. 🚀 Production Recommendation
-
-##  Best Setup to Ship:
-
-> **gpt-5.4-mini + Prompt 08 (Role + Few-shot)**
-
----
-
-##  Why this works best
+### Reasoning
 
 | Factor | Result |
-|------|--------|
-| Quality | 4.8/5 (near frontier level) |
-| Cost | ~10× cheaper than GPT-4o |
-| Latency | ~769ms (production-safe) |
-| Stability | Consistent outputs at temperature=0 |
+|--------|--------|
+| Quality | 5.0 average |
+| Cost | Lowest |
+| Latency | Fastest |
+| Consistency | High |
+| Maintainability | High |
 
 ---
 
-## Why NOT Prompt 10?
+### Secondary Options
 
-- Same score as Prompt 08
-- But:
-  - More complex
-  - Harder to maintain
-  - Less modular
+- Prompt 03 (One-shot): best for compact prompts
+- Prompt 04 (Few-shot): best for structured control
 
 ---
 
-##  Final Insight
-
-> The best systems are not the most complex prompts — but the most maintainable ones.
-
----
-
-#  Scaling Strategy
+## G. Scaling Strategy
 
 - Store few-shot examples as reusable templates
-- Update examples instead of rewriting full prompts
-- Maintain prompt modularity across product categories
-
----
+- Swap examples per product category
+- Avoid rewriting full prompts for new products
+- Maintain a single prompt framework for production consistency
