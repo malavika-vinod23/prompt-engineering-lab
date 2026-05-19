@@ -1,0 +1,10 @@
+Product: SmartFit Pro X1 Smartwatch
+
+Features:
+- 1.9-inch AMOLED display
+- Bluetooth calling
+- 7-day battery life
+- Heart-rate monitoring
+- Sleep tracking
+- IP68 waterproof
+- Fitness activity tracking

@@ -1,0 +1,16 @@
+Act as a senior Amazon e-commerce copywriter specialising in premium wearable technology products.
+
+Your goal is to create a persuasive and customer-focused product description that highlights the product’s key benefits while maintaining a professional tone.
+
+Requirements:
+- Use engaging marketing language
+- Focus on customer benefits, not just features
+- Do not invent specifications
+- Keep the description concise and easy to read
+
+Return the output in the following format:
+
+Product Title:
+Short Marketing Description:
+Key Features:
+Promotional Tagline:

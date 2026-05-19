@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-DhCtGPK7829r74hKnzuzzy84OQBMs",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "Product Title:\nSmartFit Pro X1 Smartwatch\n\nShort Marketing Description:\nDesigned for active professionals and fitness-focused users, the SmartFit Pro X1 combines sleek style with everyday performance. Its vibrant 1.9-inch AMOLED display delivers a clear, premium viewing experience, while Bluetooth calling keeps you connected without reaching for your phone. With heart-rate monitoring, sleep tracking, and fitness activity tracking, it helps you stay informed about your wellness goals throughout the day. A reliable 7-day battery life and IP68 waterproof protection make it a smart companion for work, workouts, and everything in between.\n\nKey Features:\n- 1.9-inch AMOLED display for bright, sharp visuals\n- Bluetooth calling for convenient on-the-go communication\n- Up to 7-day battery life for less frequent charging\n- Heart-rate monitoring to support daily wellness tracking\n- Sleep tracking for better recovery insights\n- IP68 waterproof design for added durability\n- Fitness activity tracking to help monitor movement and exercise\n\nPromotional Tagline:\nStay connected, stay active, stay ahead with SmartFit Pro X1.",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1779190026,
+  "model": "gpt-5.4-2026-03-05",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 220,
+    "prompt_tokens": 211,
+    "total_tokens": 431,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

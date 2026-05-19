@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-DhCsqOzTlh8u5dcpHagdlkg5AsoNI",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "1. **Product Title**  \nSmartFit Pro X1 Smartwatch\n\n2. **Short Marketing Description**  \nStay connected, active, and in control with the SmartFit Pro X1 Smartwatch. Designed for modern lifestyles, it features a vibrant 1.9-inch AMOLED display, Bluetooth calling, advanced health monitoring, and fitness tracking\u2014all powered by a long-lasting 7-day battery. With IP68 waterproof protection, it\u2019s built to keep up with your day, wherever life takes you.\n\n3. **Key Features**  \n- **1.9-inch AMOLED Display** for sharp visuals, vibrant colors, and easy viewing  \n- **Bluetooth Calling** lets you answer and make calls directly from your wrist  \n- **7-Day Battery Life** for reliable performance without constant charging  \n- **Heart-Rate Monitoring** to help you stay informed about your wellness  \n- **Sleep Tracking** for better insights into your rest and recovery  \n- **IP68 Waterproof** design for everyday protection against water and dust  \n- **Fitness Activity Tracking** to monitor workouts and support your fitness goals  \n\n4. **Promotional Tagline**  \n**SmartFit Pro X1 \u2014 Smarter Health, Seamless Connection, Everyday Performance.**",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1779190000,
+  "model": "gpt-5.4-2026-03-05",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 248,
+    "prompt_tokens": 104,
+    "total_tokens": 352,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

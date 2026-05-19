@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-DhCsO0d7VEyj9amHAYx3M68m0uN7w",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "**Product Title:**  \nSmartFit Pro X1 Smartwatch\n\n**Short Marketing Description:**  \nElevate your lifestyle with the SmartFit Pro X1 Smartwatch, where cutting-edge technology meets sophisticated design. Seamlessly integrate health, connectivity, and style into your daily routine with a device that empowers you to live smarter and healthier.\n\n**Key Features:**  \n- **Vibrant Visuals:** Experience clarity like never before with the 1.9-inch AMOLED display, offering vivid colors and sharp details that make every glance a pleasure.\n- **Stay Connected:** With Bluetooth calling, keep in touch effortlessly, whether you're on the go or at home, ensuring you never miss an important conversation.\n- **Enduring Power:** Enjoy up to 7 days of uninterrupted performance, allowing you to focus on what matters most without the constant worry of recharging.\n- **Health at Your Fingertips:** Monitor your heart rate and track your sleep patterns to gain valuable insights into your well-being, helping you make informed lifestyle choices.\n- **Built for Adventure:** With IP68 waterproofing, the SmartFit Pro X1 is your reliable companion, ready to withstand the elements whether you're swimming, hiking, or caught in the rain.\n- **Fitness Focused:** Track your fitness activities with precision, motivating you to reach new heights and achieve your personal best.\n\n**Promotional Tagline:**  \nSmartFit Pro X1: Redefine Your Everyday with Intelligent Elegance.",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1779189972,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_e88f6e05ef",
+  "usage": {
+    "completion_tokens": 292,
+    "prompt_tokens": 158,
+    "total_tokens": 450,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

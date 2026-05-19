@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-DhCtTDU8adckQn2rC0rSseJdV3c2B",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "1. **Product Title**  \nSmartFit Pro X1 Smartwatch\n\n2. **Short Marketing Description**  \nStay connected, track your health, and elevate your everyday routine with the SmartFit Pro X1 Smartwatch. Featuring a vibrant 1.9-inch AMOLED display, Bluetooth calling, and advanced fitness and wellness tracking, this sleek smartwatch is designed to keep up with your active lifestyle. With up to 7 days of battery life and IP68 waterproof protection, it delivers reliable performance wherever your day takes you.\n\n3. **Key Features**  \n- 1.9-inch AMOLED display for crisp, vivid visuals  \n- Bluetooth calling for convenient hands-free communication  \n- Up to 7-day battery life for extended use  \n- Heart-rate monitoring to support your wellness goals  \n- Sleep tracking to help improve rest and recovery  \n- IP68 waterproof rating for everyday durability  \n- Fitness activity tracking to monitor workouts and movement  \n\n4. **Promotional Tagline**  \nSmart style. Powerful tracking. Built to keep up.",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1779190039,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 208,
+    "prompt_tokens": 104,
+    "total_tokens": 312,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

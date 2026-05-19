@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-DhCt0exTpjJbna7Wjwa08PJO5zDK4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "Product Title:\nSmartFit Pro X1 Smartwatch\n\nShort Marketing Description:\nDesigned for active professionals and fitness-conscious users, the SmartFit Pro X1 Smartwatch combines sleek style with everyday performance. Its vibrant 1.9-inch AMOLED display delivers a clear, premium viewing experience, while Bluetooth calling keeps you connected on the go. With advanced heart-rate monitoring, sleep tracking, fitness activity tracking, and IP68 waterproof protection, it\u2019s built to support your health, productivity, and lifestyle. Plus, the 7-day battery life helps you stay powered longer with less charging.\n\nKey Features:\n- Large 1.9-inch AMOLED display for sharp, vivid visuals\n- Bluetooth calling for convenient hands-free communication\n- Up to 7-day battery life for reliable all-week performance\n- Heart-rate monitoring to help track your wellness in real time\n- Sleep tracking for better recovery and lifestyle insights\n- IP68 waterproof rating for everyday durability and confidence\n- Fitness activity tracking to support workouts and daily movement goals\n\nPromotional Tagline:\nStay Connected. Stay Active. Stay Ahead.",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1779190010,
+  "model": "gpt-5.4-2026-03-05",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 219,
+    "prompt_tokens": 147,
+    "total_tokens": 366,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

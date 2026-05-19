@@ -1,0 +1,8 @@
+Write a professional e-commerce product description for the following product.
+
+Return the output in the following format:
+
+1. Product Title
+2. Short Marketing Description
+3. Key Features (bullet points)
+4. Promotional Tagline

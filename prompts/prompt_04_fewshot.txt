@@ -1,0 +1,74 @@
+Good Example 1
+
+Input Product:
+- Wireless Earbuds
+- Active noise cancellation
+- 30-hour battery life
+- Bluetooth 5.3
+- Waterproof
+
+Good Output:
+
+Product Title:
+SoundPulse X Wireless Earbuds
+
+Short Marketing Description:
+Experience immersive audio with SoundPulse X wireless earbuds featuring advanced noise cancellation, crystal-clear sound quality, and up to 30 hours of battery life.
+
+Key Features:
+- Active noise cancellation
+- Bluetooth 5.3 connectivity
+- 30-hour battery backup
+- Waterproof and sweat resistant
+- Comfortable ergonomic fit
+
+Promotional Tagline:
+Powerful sound. Anytime. Anywhere.
+
+
+--------------------------------------------------
+
+
+Good Example 2
+
+Input Product:
+- Smart fitness band
+- Sleep tracking
+- Heart-rate monitoring
+- 10-day battery
+- AMOLED display
+
+Good Output:
+
+Product Title:
+FitTrack Neo Smart Band
+
+Short Marketing Description:
+Stay on top of your health goals with the FitTrack Neo Smart Band featuring advanced fitness tracking, vibrant AMOLED visuals, and long-lasting battery life.
+
+Key Features:
+- Continuous heart-rate monitoring
+- Sleep and activity tracking
+- 10-day battery performance
+- Bright AMOLED display
+- Lightweight comfortable design
+
+Promotional Tagline:
+Track smarter. Live healthier.
+
+
+--------------------------------------------------
+
+
+Bad Example (Avoid This Style)
+
+"This smartwatch is very good and useful. It has many features and looks nice. Buy now."
+
+
+--------------------------------------------------
+
+
+Now write a professional e-commerce product description for the provided product details.
+
+Follow the style and structure of the good examples.
+Avoid the style of the bad example.

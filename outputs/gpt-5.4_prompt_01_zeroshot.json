@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-DhCsjuUAanDNVpUVff25HLFWOCn8y",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "**SmartFit Pro X1 Smartwatch**\n\nStay connected, active, and in control with the **SmartFit Pro X1 Smartwatch**\u2014a sleek everyday wearable designed to support your lifestyle. Combining smart communication features with advanced health and fitness tracking, the Pro X1 helps you manage your day with ease while keeping your wellness goals on track.\n\n### Key Features\n- **1.9-inch AMOLED Display**  \n  Enjoy a vibrant, crystal-clear viewing experience with a large touchscreen that makes notifications, stats, and apps easy to read at a glance.\n\n- **Bluetooth Calling**  \n  Make and receive calls directly from your wrist for added convenience when you're on the move.\n\n- **7-Day Battery Life**  \n  Power through your week with long-lasting battery performance designed to keep up with your routine.\n\n- **Heart-Rate Monitoring**  \n  Track your heart rate throughout the day to stay informed about your health and activity levels.\n\n- **Sleep Tracking**  \n  Monitor your sleep patterns and gain insights to help improve your nightly rest.\n\n- **IP68 Waterproof**  \n  Built to handle everyday splashes, sweat, and water exposure with confidence.\n\n- **Fitness Activity Tracking**  \n  Keep up with your workouts and daily movement with smart activity tracking that supports a more active lifestyle.\n\n### Why You\u2019ll Love It\nThe **SmartFit Pro X1** blends modern style with practical functionality, making it the perfect companion for work, workouts, and everything in between. Whether you're answering calls, tracking your fitness progress, or monitoring your wellness, this smartwatch delivers the features you need in one streamlined device.\n\n**Upgrade your routine with the SmartFit Pro X1 Smartwatch\u2014where smart technology meets everyday performance.**",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1779189993,
+  "model": "gpt-5.4-2026-03-05",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 347,
+    "prompt_tokens": 71,
+    "total_tokens": 418,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

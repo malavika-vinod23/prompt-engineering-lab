@@ -1,0 +1,28 @@
+Example:
+
+Input Product:
+- Wireless Earbuds
+- Active noise cancellation
+- 30-hour battery life
+- Bluetooth 5.3
+- Waterproof
+
+Example Output:
+
+Product Title:
+SoundPulse X Wireless Earbuds
+
+Short Marketing Description:
+Experience immersive audio with SoundPulse X wireless earbuds featuring advanced noise cancellation, crystal-clear sound quality, and up to 30 hours of battery life for uninterrupted listening.
+
+Key Features:
+- Active noise cancellation
+- Bluetooth 5.3 connectivity
+- 30-hour battery backup
+- Waterproof and sweat resistant
+- Ergonomic comfortable fit
+
+Promotional Tagline:
+Powerful sound. Anytime. Anywhere.
+
+Now write a professional e-commerce product description for the provided product details using the same style and structure.

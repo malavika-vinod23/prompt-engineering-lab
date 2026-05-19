@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-DhCt8mN5gct0w3Fvn1M1uW7VqXL5p",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "Product Title:\nSmartFit Pro X1 Smartwatch with 1.9\" AMOLED Display, Bluetooth Calling, Heart-Rate & Sleep Tracking\n\nShort Marketing Description:\nStay connected, motivated, and in control with the SmartFit Pro X1 Smartwatch. Designed for everyday performance, it combines a vibrant 1.9-inch AMOLED display, convenient Bluetooth calling, and essential health and fitness tracking in one sleek wearable. From busy workdays to active weekends, SmartFit Pro X1 helps you manage your routine with confidence and ease.\n\nKey Features:\n- Large 1.9-inch AMOLED display delivers a bright, clear viewing experience for easy updates at a glance\n- Bluetooth calling lets you stay connected without constantly reaching for your phone\n- Up to 7-day battery life supports your routine with less frequent charging\n- Heart-rate monitoring helps you stay informed about your wellness throughout the day\n- Sleep tracking gives you better insight into your rest and recovery habits\n- IP68 waterproof design adds peace of mind for everyday wear\n- Fitness activity tracking helps you monitor movement and stay focused on your goals\n\nPromotional Tagline:\nSmartFit Pro X1 \u2014 Smarter wellness, seamless connection, every day.",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1779190018,
+  "model": "gpt-5.4-2026-03-05",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 243,
+    "prompt_tokens": 157,
+    "total_tokens": 400,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
